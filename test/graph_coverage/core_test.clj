@@ -19,3 +19,7 @@
 (deftest a-test
   (testing "FIXME, I fail."
     (is (= 1 1))))
+
+(deftest another-test
+  (testing "FIXME, I fail."
+    (is (= 0 1))))
