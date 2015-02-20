@@ -26,4 +26,4 @@
 
 (deftest should-have-15-prime-paths
   (testing "There were a bad number of prime paths"
-    (is (= 15 (prime-paths graph)))))
+    (is (= 15 (count (prime-paths graph))))))
