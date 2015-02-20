@@ -23,3 +23,7 @@
 (deftest another-test
   (testing "FIXME, I fail."
     (is (= 0 1))))
+
+(deftest should-have-15-prime-paths
+  (testing "There were a bad number of prime paths"
+    (is (= 15 (prime-paths graph)))))
